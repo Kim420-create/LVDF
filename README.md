@@ -1,2 +1,4 @@
-# LVDF
-Premier site web après reconversion pro.
+# LVDF 👩‍💻
+
+First website after my professional retraining
+
