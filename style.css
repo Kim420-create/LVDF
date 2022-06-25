@@ -1,0 +1,947 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2ebe1;
+}
+
+hr {
+  border-width: thin;
+  border-color: black;
+ }
+
+/* --------------------SECTION ACCUEIL---------------------- */
+
+.copyright a{
+  color: white;
+}
+
+.copyright {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+h2 {
+  font-family: "Zilla Slab Highlight", cursive;
+  color: #fd4e02;
+  text-align: center;
+  font-size: 30px;
+  text-align: left;
+}
+
+h2 span {
+  color: #be000e;
+  font-family: "Zilla Slab Highlight", cursive;
+}
+
+section {
+  height: auto;
+}
+
+.titrevideo {
+  display: none;
+}
+
+.BareContainer a {
+  text-decoration: none;
+}
+
+#accueil {
+  height: 100vh;
+  margin: 0 auto;
+  background: url("./imagesfigma/fondAccueil.png") no-repeat center / cover;
+}
+
+#accueil h1 {
+  font-family: "Zilla Slab Highlight", cursive;
+  color: white;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 38vh;
+  text-align: center;
+}
+
+#accueil p {
+  font-size: 18px;
+  font-family: "Zilla Slab Highlight", cursive;
+  color: antiquewhite;
+}
+
+.vertical-menu {
+  font-family: "Zilla Slab", serif;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.vertical-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.vertical-menu li {
+  list-style: none;
+  font-family: "Zilla Slab", serif;
+  margin: 10px 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+.rouge {
+  background-color: #be000e;
+  color: white;
+}
+
+.orange {
+  background-color: #fd4e02;
+  color: white;
+}
+
+li {
+  width: 95%;
+}
+
+/* --------------------SECTION JR---------------------- */
+
+#JR {
+  display: flex;
+  align-items: center;
+}
+
+#JR h2 {
+margin: 30px 0;
+}
+
+#JR p {
+  font-family: "Zilla Slab";
+  font-size: 18px;
+}
+
+.paraContainer {
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 2em;
+  width: auto;
+  padding: 30px 30px;
+}
+
+.border {
+  width: 268px;
+  height: 344px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 17px;
+}
+
+.borderWeight {
+  border: 1px solid black;
+  padding: 10px;
+  width: 306px;
+  margin: 17px;
+}
+
+.para1 {
+  font-family: "Zilla Slab";
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.para2 {
+  font-family: "Zilla Slab";
+  font-weight: bold;
+  font-size: 18px;
+  color: #6c6e6d;
+}
+
+/* --------------------SECTION GALRIE JR---------------------- */
+
+#galerie1container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#galerie1container h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.galerieJR1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.galerieJR2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.photo {
+  object-fit: contain;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+/* --------------------SECTION VIDEO---------------------- */
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body h2 {
+  text-align: center;
+}
+
+/* --------------------SECTION BAREFOOT---------------------- */
+
+#barefoot {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background: url(./imagesfigma/groupe\2png) no-repeat center / cover;
+  background-size: 47%;
+  background-position-x: right;
+}
+
+#barefoot h2 {
+  margin: 30px 0;
+  text-align: left;
+  font-family: "Zilla Slab Highlight", cursive;
+}
+
+.BareContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group1 {
+  font-family: "Zilla Slab";
+  font-weight: bold;
+  font-size: 18px;
+  color: #6c6e6d;
+  display: flex;
+  justify-content: center;
+
+}
+
+.paraB {
+  font-family: "Zilla Slab";
+  font-size: 18px;
+  text-align: center;
+}
+
+/* --------------------SECTION galerie BAREFOOT---------------------- */
+figure {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  text-align: center;
+  padding: 10px 10px;
+  align-items: center;
+}
+figcaption{
+  padding: 19px 0;
+  font-size: 15px;
+  font-family: "Zilla Slab";
+  color: black;
+}
+
+figcaption span{
+  text-decoration: none;
+  font-family: "Zilla Slab";
+}
+
+.bardeau a{
+  text-decoration: none;
+}
+
+figcaption a{
+  text-decoration: none;
+  color: black;
+}
+
+.bare {
+  display: flex;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 90px 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto 90px auto;
+  grid-template-areas: "i1 i2" "i3 i4";
+  margin-top: 60px;
+}
+
+.i1 {
+  grid-row: 1;
+  grid-column: 1;
+  grid-area: i1;
+}
+
+.i2 {
+  grid-row: 1;
+  grid-column: 3;
+  grid-area: i2;
+}
+
+.i3 {
+  grid-row: 3;
+  grid-column: 1;
+  grid-area: i3;
+}
+
+.i4 {
+  grid-row: 3;
+  grid-column: 3;
+  grid-area: i4;
+}
+
+/* --------------------SECTION  Mai AUSSI---------------------- */
+.élément1, .élément2 {
+  margin: auto;
+}
+
+.aussip {
+  font-family: "Zilla Slab";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 200%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  color: #6c6e6d;
+}
+
+#maisAussi {
+  display: flex;
+  flex-direction: row;
+  background: url(./imagesfigma/group\1png) no-repeat center / cover;
+  justify-content: center;
+}
+
+#maisAussi p {
+  font-family: "Zilla Slab";
+  font-size: 18px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+/* --------------------SECTION BRAND---------------------- */
+
+#brand {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: auto;
+}
+
+#brand p {
+  font-family: "Zilla Slab";
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+}
+
+.marque {
+  display: flex;
+  flex-direction: column;
+}
+
+.boite1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.boite2 {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+article {
+  width: 40%;
+  border: black solid 1px;
+  margin: 4%;
+  padding: 5%;
+}
+
+/* --------------------SECTION SIMPLON---------------------- */
+
+#simplon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#simplon p {
+  font-family: "Zilla Slab";
+  font-size: 18px;
+  line-height: 170.19%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#simplon .simplon1 {
+  font-family: "Zilla Slab";
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center;
+  color: #6c6e6d;
+}
+
+.bardeau img{
+     width: 40%;
+     object-fit: contain;
+}
+
+/* --------------------SECTION PHOTO---------------------- */
+
+#photo img {
+  padding: 0;
+  width: 100%;
+}
+
+/* --------------------SECTION EN DEFINITIVE---------------------- */
+
+#endefinitive img {
+     object-fit: contain;
+}
+
+#endefinitive h2{
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 30px;
+  margin-bottom: 20px;
+}
+
+.container .para1 {
+  align-items: center;
+  text-align: center;
+}
+
+.picture {
+  margin: 0 20px;
+}
+
+.para2 {
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  padding: 30px;
+  font-family: "Zilla Slab";
+  font-size: smaller;
+}
+
+footer a{
+  color: black;
+  font-family: "Zilla Slab";
+  font-size: smaller;
+  text-decoration: none;
+}
+
+/* ------------------------------------Responsive-------------------------------------------------- */
+
+@media (max-width: 650px) {
+  .Link {
+    display: none;
+  }
+
+  #endefinitive {
+    flex-direction: column;
+    background: none;
+  }
+
+  #accueil p {
+    display: none;
+  }
+
+  hr {
+  display: none;
+  }
+
+  figcaption {
+    display: none;
+  }
+
+  #endefinitive img {
+  object-fit: contain;
+  width: 100%;
+  position: relative;
+  }
+
+  article {
+    width: 90%;
+    border: black solid 1px;
+    margin: 4%;
+    padding: 5%;
+  }
+
+  #simplon .simplon1{
+    font-family: "Zilla Slab";
+    font-weight: bold;
+    font-size: 18px;
+    align-items: center;
+    color: #6c6e6d;
+  }
+
+  section {
+    height: auto;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .para2 {
+    font-weight: bold;
+  }
+  
+  #barefoot {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: -37px;
+  }
+
+  .BareContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    margin: 0 auto;
+  }
+
+  .BareContainer img {
+    display: none;
+  }
+ 
+  .bare {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-gap: inherit;
+    margin-top: 30px;
+  }
+
+  .group1 {
+    font-family: "Zilla Slab";
+    font-weight: bold;
+    font-size: 18px;
+    color: #6c6e6d;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .group1 p {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .paraB {
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .i1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .i2 {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .i3 {
+    grid-row: 5;
+    grid-column: 1;
+  }
+
+  .i4 {
+    grid-row: 7;
+    grid-column: 1;
+  }
+
+  #accueil {
+    height: 38vh;
+  }
+
+  #accueil h1 {
+    font-family: "Zilla Slab Highlight", cursive;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 14vh;
+    width: fit-content;
+    left: 34%;
+  }
+
+  #JR img {
+    width: 24%;
+    position: relative;
+    top: -162vh;
+    left: 76%;
+  }
+
+  .paraContainer {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px;
+  }
+
+  .para1 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .para2 {
+    width: 100%;
+    height: auto;
+    color: #6c6e6d;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+
+  .vertical-menu {
+    font-family: "Zilla Slab", serif;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28%;
+  }
+
+  #JR { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #JR p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+
+  #JR h2 {
+    font-size: 18px;
+    width: 68%;
+  }
+
+  h2 {
+    font-family: "Zilla Slab Highlight", cursive;
+    color: #fd4e02;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  h2 span {
+    font-family: "Zilla Slab Highlight", cursive;
+  }
+
+  .galerieJR1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  #barefoot > .BareContainer > h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    position: inherit;
+  }
+
+  .titrevideo {
+    display: none;
+  }
+
+  .BareContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containeraussi {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #endefinitive > h2 {
+    margin: 30px 0;
+  }
+
+  footer p {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    border: 1px solid;
+    margin-top: 30px;
+  }
+
+  .container {
+    flex-direction: column;
+    margin: auto 10px;
+  }
+
+  .containeraussi img {
+    display: none;
+  }
+
+  #galerieBarefoot {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #maisAussi {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #maisAussi p {
+    width: 90%;
+    height: auto;
+    line-height: inherit;
+    margin: inherit;
+    margin-top: 20px;
+  }
+
+  #photo {
+    height: auto;
+  }
+
+  .élément2 {
+    display: none;
+  }
+
+  #brand {
+    display: flex;
+    text-align: center;
+    height: auto;
+  }
+
+  .marque {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .boite1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .boite2 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .simplonContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+  }
+
+  #simplon p {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .simplonContainer img {
+   display: none;
+  }
+
+  #photo img {
+    width: 100%;
+  }
+
+  .bare img{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border: 1px solid black;
+  }
+
+  .galerieJR2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Galaxy Fold */
+@media(max-width: 320px) {
+
+}
+
+@media (min-width : 320px) {
+
+  #simplon h2 {
+    margin: 30px;
+  }
+
+  #endefinitive img {
+    margin: 30px 0 0 0;
+  }
+  
+  article > .sizeImg{
+    width: 100% !important;
+  }
+
+}
+
+/* Responsive breakpoint small devices */
+@media (min-width: 576px) {
+
+  #JR, .BareContainer, .bare, .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .bardeau img {
+    width: 50%;
+    object-fit: contain;
+  }
+
+  .galerieJR1 img {
+    margin: 10px;
+  }
+
+  .galerieJR1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  article {
+    width: auto;
+  }
+ 
+  #galerie1container, .simplonContainer, #galerieBarefoot, .container {
+    margin-top: 30px;
+  }
+   
+  #maisAussi p {
+    text-align: center;
+  }
+
+}
+
+/* Responsive breakpoint medium devices */
+@media (min-width: 768px) {
+
+  #accueil {
+    width: 100%;
+    margin: 0 auto;
+    background: url(./imagesfigma/fondAccueil.png) no-repeat center / cover;
+    width: 100%;
+  }
+
+  .bare, .BareContainer, .containeraussi, #simplon, .container {
+   display: flex;
+   flex-direction: column; 
+   padding: 30px 30px;
+  }
+  
+  #JR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px;
+  }
+  
+}
+
+/* Responsive breakpoint large devices */
+@media (min-width: 992px) {
+
+.galerieJR2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.galerieJR1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.bare {
+  display: flex;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 90px 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto 90px auto;
+  grid-template-areas:
+      "i1 i2"
+      "i3 i4";
+}
+
+
+}
+
+/* Responsive breakpoint extra large devices */
+@media (min-width: 1200px) {
+  .bardeau img {
+    width: 40%;
+    object-fit: contain;
+  }
+  figure {
+    align-items: center;
+  }
+}
